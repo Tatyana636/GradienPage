@@ -1,0 +1,104 @@
+html {
+	overflow-x: hidden;
+	user-select: none;
+}
+body {
+	background: url('../img/art-ogni-kosmos-zvezdy-uzory-tumannost-rossyp-mercanie.jpg') repeat fixed center;
+	margin: 0;
+	padding: 0;
+	background-size:  cover;
+	color: white;
+	font-size: 2em;
+}
+div {
+	position: absolute;	
+	}
+p{
+	white-space: pre-wrap;
+	position: absolute;
+	left: 24vw;
+	top: 48vh;
+	font-size: 20px;
+}
+.gr_45d{
+	width: 29%;
+	height: 100vh;
+	background: linear-gradient(to bottom, rgba(30,60,55,0.2), rgba(75,40,125,0.5), rgba(60,20,80,0.6),rgba(0,0,0,0));
+	transform: skew(-45deg, 0deg);
+    left: 4%;
+}
+.gr_54d{
+	width: 13%;
+    height: 44vh;
+	background: linear-gradient(to top, rgba(0,0,0,0), rgba(255,255,255,0.3), rgba(255,255,255,0.8));
+	transform: skew(54deg, -24deg); 
+    left: -8%;
+    top: 50vh;
+}
+.gr_44d{
+	width: 30%;
+    height: 100vh;
+	background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(35,25,65,0.5), rgba(140,60,130,0.5));
+	right: 20%;
+	transform: skew(46deg, 0deg);
+}
+.sp_trns {
+	border: 1px solid white; 
+	color: #000;
+	transform: skew(47deg, -45deg);
+}
+span {
+   display: block;	
+	}
+.bgbl {
+    position: relative;
+    width: 47vw;
+    height: 67vh;
+    top: 22vh;
+    left: 16%;
+	}
+.frbl {
+	width: 25%;
+    height: 24vh;
+    top: 32%;
+	left: 24%;
+}
+.stbl {
+	width: 11.4%;
+    height: 10.6vh;
+    margin: 18.3% 0 0 7.7%;
+   }
+.txt_fr, .txt_st {
+	position: absolute;
+	}
+.txt_fr {
+   top: 10%;
+   font-size: 2em;
+	}
+.txt_st{
+	left: 9.8%;
+    top: 65%;
+    font-size: 16px;
+}
+hr {
+   width: 50%;
+   border: 1px solid white;
+}
+#ln_hrz, #ln_vert{
+	width: 2px;
+	height: 300px;
+	background: white;
+	position: absolute;
+}
+#ln_vert {
+	left: 8vw;
+	height: 25vh;
+    transform: skew(53.5deg, 0deg);
+    top: 58vh;
+}
+#ln_hrz {
+	transform: skew(-45deg, 0deg);
+	height: 30vh;
+	top: 0vh;
+	left: 20.8vw;
+}
